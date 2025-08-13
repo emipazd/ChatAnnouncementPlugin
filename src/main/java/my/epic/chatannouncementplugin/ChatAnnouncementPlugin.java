@@ -40,7 +40,7 @@ public final class ChatAnnouncementPlugin extends JavaPlugin {
                 }
 
                 // Translate & color codes
-                messageToSend = ChatColor.translateAlternateColorCodes('&', messageToSend);
+                messageToSend = messageToSend.replaceAll("&", "§");
 
                 Bukkit.broadcastMessage(messageToSend);
             }
