@@ -1,0 +1,6 @@
+messages:
+  - "Welcome to the server!"
+  - "Remember to join our Discord!"
+  - "Vote daily for rewards!"
+delay: 60       # delay in seconds between announcements
+random: false   # if true, messages are picked randomly; if false, they are in order
