@@ -1,6 +1,7 @@
 name: ChatAnnouncementPlugin
 version: 1.0
 main: my.epic.chatannouncementplugin.ChatAnnouncementPlugin
+folia-supported: true
 commands:
   chapreload:
     description: Reload the ChatAnnouncementPlugin config
