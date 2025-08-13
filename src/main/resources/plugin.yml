@@ -1,4 +1,11 @@
 name: ChatAnnouncementPlugin
-version: '${project.version}'
+version: 1.0
 main: my.epic.chatannouncementplugin.ChatAnnouncementPlugin
-folia-supported: true
+commands:
+  chapreload:
+    description: Reload the ChatAnnouncementPlugin config
+    usage: /<command>
+permissions:
+  chap.reload:
+    description: Allows reloading the plugin's config
+    default: op
