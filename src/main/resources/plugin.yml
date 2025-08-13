@@ -1,0 +1,4 @@
+name: ChatAnnouncementPlugin
+version: '${project.version}'
+main: my.epic.chatannouncementplugin.ChatAnnouncementPlugin
+folia-supported: true
