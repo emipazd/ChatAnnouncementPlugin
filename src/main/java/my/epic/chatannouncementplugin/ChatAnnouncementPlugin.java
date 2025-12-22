@@ -5,6 +5,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bstats.bukkit.Metrics;
 
 import java.util.List;
 import java.util.Random;
@@ -24,7 +25,8 @@ public final class ChatAnnouncementPlugin extends JavaPlugin {
 
         getLogger().info("[ChatAnnouncementPlugin] Made with love by Emilia");
         getLogger().info("[ChatAnnouncementPlugin] Trans lives matter! :3");
-
+        int pluginId = 12345;
+        Metrics metrics = new Metrics(this, pluginId);
         // Schedule repeating announcements
         Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
             @Override
