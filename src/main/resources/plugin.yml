@@ -1,5 +1,5 @@
 name: ChatAnnouncementPlugin
-version: 1.0
+version: 1.0.1
 main: my.epic.chatannouncementplugin.ChatAnnouncementPlugin
 folia-supported: true
 commands:
