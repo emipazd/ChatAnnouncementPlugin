@@ -25,7 +25,7 @@ public final class ChatAnnouncementPlugin extends JavaPlugin {
 
         getLogger().info("[ChatAnnouncementPlugin] Made with love by Emilia");
         getLogger().info("[ChatAnnouncementPlugin] Trans lives matter! :3");
-        int pluginId = 12345;
+        int pluginId = 28503;
         Metrics metrics = new Metrics(this, pluginId);
         // Schedule repeating announcements
         Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
